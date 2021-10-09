@@ -3,12 +3,12 @@
   padding: 0px;
   font-family: "Exo 2", sans-serif;
 }
+body {
+  overflow-x: hidden;
+}
 .secondaryText {
   font-family: "Raleway", sans-serif;
   color: #d18410;
-}
-body{
-  overflow: hidden;
 }
 .subHeading {
   color: white;
@@ -281,13 +281,14 @@ body{
 }
 .registration button {
   background-color: rgb(96, 96, 228);
-  width: 10rem;
-  border-radius: 0.8rem;
+  width: 18rem;
+  border-radius: 0.4rem;
   margin-top: 0.7rem;
-  height: 2rem;
+  height: 3rem;
   color: white;
   font-family: "Raleway", sans-serif;
   cursor: pointer;
+  font-size: 1rem;
 }
 footer {
   width: 100vw;
@@ -349,7 +350,7 @@ footer {
   }
   .navlinks {
     position: absolute;
-    top: 10vh;
+    top: 15vh;
     flex-direction: column;
     align-items: center;
     height: 50vh;
@@ -386,9 +387,9 @@ footer {
     font-size: 2rem;
   }
   #poster {
-    margin: 1rem 2rem 1rem 2rem;
+    margin: 1rem 1rem 1rem 2rem;
     border-radius: 1rem;
-    height: 18rem;
+    height: 14rem;
   }
   .banner {
     border-bottom: none;
@@ -399,7 +400,7 @@ footer {
     width: 6rem;
     padding-top: 0rem;
     padding-left: 0rem;
-    margin-top: 7rem;
+    margin-top: 5.5rem;
     /* margin-left: 15rem; */
   }
   .postercontent {
@@ -407,35 +408,35 @@ footer {
     padding-bottom: 1rem;
   }
   .postercontent h1 {
-    padding-left: 1rem;
+    padding-left: 2.8rem;
     padding-top: 1rem;
     font-size: 1.5rem;
     /* padding-bottom: 1rem; */
   }
   .postercontent h3 {
-    padding-left: 2rem;
-    font-size: 0.8rem;
-    line-height: 2rem;
-  }
-  .postercontent h4 {
-    padding-left: 3rem;
+    padding-left: 3.5rem;
     font-size: 0.8rem;
     line-height: 1rem;
   }
+  .postercontent h4 {
+    padding-left: 4rem;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+  }
   .eventdate {
     display: flex;
-    margin-top: 1rem;
+    margin-top: 0rem;
   }
   .eventdate h1 {
-    margin-left: -2.6rem;
+    margin-left: -3.6rem;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 3rem;
   }
   .date h3 {
     font-weight: 800;
     font-size: 0.6rem;
-    line-height: 1rem;
-    margin-left: 1rem;
+    line-height: 0.7rem;
+    margin-left: -0.5rem;
   }
   .date {
     padding-left: 0rem;
@@ -446,27 +447,28 @@ footer {
     line-height: 0.4rem;
   }
   .time h3 {
-    font-size: 0.6rem;
-    padding-left: 0.5rem;
+    font-size: 0.7rem;
+    padding-left: 0.1rem;
     margin-top: 0.1rem;
+    line-height: 1.5rem;
   }
   .time h2 {
-    font-size: 0.6rem;
+    font-size: 0.9rem;
     font-weight: 500;
   }
   .organised {
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
   }
   .organised h1 {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     font-weight: 500;
     margin-left: 0.1rem;
   }
   .organised h2 {
     margin-left: 3.5rem;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     font-weight: 500;
   }
   .Event {
@@ -475,7 +477,7 @@ footer {
   }
   .session {
     width: 100%;
-    height: 100vh;
+    height: 65vh;
     padding-left: 2rem;
     margin-top: 0.5rem;
     border-right: none;
@@ -485,22 +487,33 @@ footer {
     width: 100%;
     padding-top: 0.5rem;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .speaker h1 {
     padding-top: 1rem;
     max-width: 1rem;
-    font-size: 2rem;
+    font-size: 1rem;
   }
   .speakerPhoto img {
     margin-top: 4rem;
-    padding-left: 0.2rem;
+    padding-left: 0rem;
     padding-bottom: 2rem;
+    margin-left: 0.1rem;
     height: 5rem;
     width: 10rem;
   }
+  .slides p {
+    font-size: 0.8rem;
+  }
+  .clock {
+    height: 7rem;
+    margin-left: 0rem;
+    text-align: center;
+    width: 19rem;
+  }
   .registration {
     height: 30vh;
+    margin-left: -2rem;
   }
   .registration h2 {
     font-weight: 600;
@@ -516,7 +529,7 @@ footer {
   }
   #timers {
     padding: 1rem 0.6rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
     border-radius: 0.6rem;
     width: 80%;
   }
