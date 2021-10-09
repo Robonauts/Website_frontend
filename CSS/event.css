@@ -7,6 +7,9 @@
   font-family: "Raleway", sans-serif;
   color: #d18410;
 }
+body{
+  overflow: hidden;
+}
 .subHeading {
   color: white;
   font-family: "Raleway", sans-serif;
