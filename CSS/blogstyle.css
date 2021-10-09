@@ -76,7 +76,7 @@ body {
 }
 .home {
   top: 0px;
-  background: url("../Images/banner.png") no-repeat;
+  background: url("../Images/blogbg.png") no-repeat;
   background-size: cover;
   background-color: black;
   height: 100vh;
@@ -91,11 +91,11 @@ body {
 }
 #bloggg {
   color: white;
-  margin-top: 85vh;
+  margin-top: 73vh;
   font-size: 3.2rem;
   font-weight: bold;
-  /* margin-right: 19vw; */
-  margin-left: -10vw;
+  margin-left: 2vw;
+  z-index: 11;
   font-family: "Judson", serif;
 }
 .p1p {
@@ -270,7 +270,9 @@ body {
   font-size: 1rem;
   margin-top: 0.2rem;
 }
-
+.copyright {
+  width: 55%;
+}
 footer {
   width: 100vw;
   height: 8vh;
@@ -278,6 +280,10 @@ footer {
   justify-content: space-around;
   align-items: center;
   background-color: rgb(37, 37, 37);
+}
+.right_footer {
+  width: 30%;
+  /* margin-right: 2rem; */
 }
 .right_footer p {
   display: flex;
@@ -324,7 +330,7 @@ footer {
     overflow-x: hidden;
   }
   .home {
-    background-size: 520px 1000px;
+    background-size: cover;
   }
   #navbar {
     width: 60%;
@@ -360,14 +366,22 @@ footer {
     margin-top: 2rem;
     margin-right: 2rem;
   }
+  .right_footer {
+    width: 70%;
+  }
   .right_footer p {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
+    justify-content: stretch;
+  }
+  .right_footer span {
+    margin-right: 15px;
   }
   .right_footer a {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
+    margin-right: 15px;
   }
   .copyright p {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
   .copyright {
     padding: 5px;
@@ -402,15 +416,19 @@ footer {
   .content3 {
     width: 100%;
   }
+  .mentor {
+    height: 35vh;
+  }
   #img3 {
     width: 80%;
   }
   #men {
+    margin-bottom: 0.8rem;
     font-size: 1.8rem;
   }
   #mname {
     font-weight: 800;
-    font-size: 1.2em;
+    font-size: 1.1rem;
   }
   #prof {
     font-size: 0.8rem;
