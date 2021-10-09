@@ -165,6 +165,9 @@ footer {
   align-items: center;
   background-color: rgb(37, 37, 37);
 }
+.right_footer {
+  width: 30%;
+}
 .right_footer p {
   display: flex;
   justify-content: space-around;
@@ -278,6 +281,9 @@ footer {
     line-height: 2;
     margin-left: 0.8rem;
     margin-right: 0.8rem;
+  }
+  .right_footer {
+    width: 55%;
   }
   .right_footer p {
     font-size: 0.6rem;

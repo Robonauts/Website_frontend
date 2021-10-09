@@ -10,16 +10,15 @@
   text-decoration: none;
 }
 .logo img {
-  padding-left: 3.7rem;
-  height: 50px;
-  width: 190px;
+  padding-left: 0.2rem;
+  height: 3rem;
+  width: 8rem;
   cursor: pointer;
 }
 .logo h4 {
   font-style: italic;
-  position: relative;
-  /* left: 44px; */
-  font-size: 13.4px;
+  margin-left: -3.2rem;
+  font-size: 0.7rem;
 }
 #navbar {
   position: absolute;
@@ -32,8 +31,8 @@
 #navbar a {
   text-decoration: none;
   color: white;
-  padding: 0rem 1.5rem;
-  font-size: 1.2rem;
+  padding: 0rem 3.2rem;
+  font-size: 1rem;
   font-weight: 800;
   /* font-family: 'Exo 2', sans-serif;
        */
@@ -375,12 +374,15 @@ footer {
   padding-bottom: 10px;
   font-family: "Raleway", sans-serif;
 }
+.copyright {
+  font-size: 1rem;
+}
 
 .copy1 {
   padding-left: 100px;
   padding-top: 40px;
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 500;
   color: white;
   /* margin: 2em; */
 }
@@ -448,21 +450,25 @@ footer {
   }
 
   #navbar {
-    width: 80%;
+    width: 100%;
+    margin-right: 3rem;
   }
 
   #navbar a {
-    padding-top: 2.5rem;
+    padding-top: 2rem;
     font-size: 1rem;
-    padding-right: 2.3rem;
+    /* padding-right: 2.3rem;
+    text-align: center; */
   }
   .navlinks {
     position: absolute;
+    padding: 0%;
     top: 4vh;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
     height: 45vh;
-    width: 65%;
+    width: 62%;
     background-color: rgb(58, 58, 58);
     transform: translateX(100%);
     transition: all 0.3s ease-out;
@@ -496,7 +502,7 @@ footer {
   .logo h4 {
     font-size: 0.6rem;
     margin-top: -0.6rem;
-    padding-left: 5px;
+    padding-left: 3.5rem;
   }
 
   .home {
