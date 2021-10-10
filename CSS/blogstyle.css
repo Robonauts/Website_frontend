@@ -451,6 +451,9 @@ footer {
   #Joshi {
     width: 40%;
   }
+  #bloggg {
+    margin-top: 67vh;
+  }
 }
 .nav-active {
   transform: translateX(0%);
