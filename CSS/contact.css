@@ -201,7 +201,7 @@ input[type="text"] {
   /* margin-right: 1.5em; */
 }
 
-input[type="submit"] {
+button[type="submit"] {
   cursor: pointer;
   padding: 15px 27px 15px 27px;
   font-size: 20px;
@@ -213,7 +213,7 @@ input[type="submit"] {
   height: 55px;
   background: #e69722;
 }
-input[type="submit"]:hover {
+button[type="submit"]:hover {
   color: #fff;
   background-color: gray;
 }
@@ -580,7 +580,7 @@ footer {
     /* padding-right: 18px; */
   }
 
-  input[type="submit"] {
+  button[type="submit"] {
     margin-left: 5%;
   }
 
