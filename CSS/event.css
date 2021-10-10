@@ -198,6 +198,15 @@ body {
   border-right: 0.2rem solid black;
   margin-bottom: 6rem;
 }
+.reg {
+  font-size: 1.5rem;
+}
+.reg2 {
+  font-size: 1rem;
+}
+.roy {
+  border-radius: 0.5rem;
+}
 .slideshow {
   display: flex;
 }
@@ -413,6 +422,12 @@ footer {
     font-size: 1.5rem;
     /* padding-bottom: 1rem; */
   }
+  .reg {
+    font-size: 0.7rem;
+  }
+  .reg2 {
+    font-size: 0.7rem;
+  }
   .postercontent h3 {
     padding-left: 3.5rem;
     font-size: 0.8rem;
@@ -496,11 +511,11 @@ footer {
   }
   .speakerPhoto img {
     margin-top: 4rem;
-    padding-left: 0rem;
+    padding-left: 1rem;
     padding-bottom: 2rem;
     margin-left: 0.1rem;
     height: 5rem;
-    width: 10rem;
+    width: 7rem;
   }
   .slides p {
     font-size: 0.8rem;
