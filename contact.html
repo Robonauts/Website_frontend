@@ -86,7 +86,7 @@
                         <p class="cont-top-para">Approach Us</p>
                     </div>
                     <div class="cont-right">
-                        <form>
+                        <form id="contactForm">
 
                             <div class="name-adj" style="margin-bottom: 5px;">
                                 <div style="display: flex; flex-direction: column; margin-right: 0px;">
@@ -108,7 +108,7 @@
 
                             <label for="message" class="cont-msg">Message</label> <textarea id="message" name="message"
                                 required cols="50" rows="5" placeholder="Message"></textarea>
-                            <input type="submit" name="submit" id="submit" value="SEND MESSAGE">
+                            <button type="submit" name="submit" id="submit">SEND MESSAGE</button>
 
                         </form>
                     </div>
@@ -125,6 +125,9 @@
             <a class="con2">IIITN</a>
         </div>
     </footer>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <!-- <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script> -->
     <script src="./JS/contact.js"></script>
 </body>
 
