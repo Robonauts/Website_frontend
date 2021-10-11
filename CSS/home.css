@@ -132,7 +132,7 @@
 }
 .aboutUs {
   text-align: center;
-  height: 85vh;
+  height: 79vh;
   margin: 0.6rem 0rem;
 }
 .aboutUs H1 {
@@ -151,7 +151,7 @@
 }
 .aboutUs p {
   text-align: justify;
-  margin: 0.3rem 16.6rem;
+  margin: 0.3rem 14rem;
   font-size: 1.35rem;
   color: rgba(0, 0, 0, 0.808);
   font-weight: 500;
@@ -161,12 +161,18 @@ footer {
   width: 100vw;
   height: 8vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: rgb(37, 37, 37);
 }
-.right_footer {
+/* .right_footer {
   width: 30%;
+} */
+.margin-left {
+  margin-left: 6rem;
+}
+.margin-right {
+  margin-right: 6rem;
 }
 .right_footer p {
   display: flex;
@@ -282,13 +288,26 @@ footer {
     margin-left: 0.8rem;
     margin-right: 0.8rem;
   }
+  footer {
+    justify-content: space-around;
+  }
+  .margin-left {
+    margin-left: 0.1rem;
+  }
+  .margin-right {
+    margin-right: 0.1rem;
+  }
   .right_footer {
     width: 55%;
+  }
+  .right_footer span {
+    margin-right: 8px;
   }
   .right_footer p {
     font-size: 0.6rem;
   }
   .right_footer a {
+    margin-right: 8px;
     font-size: 0.6rem;
   }
   .copyright p {
