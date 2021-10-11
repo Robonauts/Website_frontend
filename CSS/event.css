@@ -386,7 +386,7 @@ footer {
     padding-left: 0rem;
     object-fit: contain;
     height: 3rem;
-    width: 8rem;
+    width: 7rem;
   }
   .logo h4 {
     font-size: 0.6rem;
@@ -552,6 +552,7 @@ footer {
     width: 100%;
     margin-top: 0.7rem;
     height: 2.5rem;
+    padding: 0rem 5rem;
   }
   #timers {
     padding: 1rem 0.6rem;
