@@ -51,5 +51,5 @@ var y = setInterval(function () {
   var seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
   document.getElementById("timers").innerHTML =
-    days + "d :" + hours + "hrs :" + mins + "m :" + seconds + "sec";
+    days + " d : " + hours + " h : " + mins + " m : " + seconds + " s";
 }, 1000);

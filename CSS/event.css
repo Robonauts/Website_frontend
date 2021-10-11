@@ -180,7 +180,7 @@ body {
   font-family: "Raleway", sans-serif;
 }
 .organised h2 {
-  margin-left: 22rem;
+  margin-left: 28rem;
   font-size: 1.5rem;
   font-weight: 400;
   font-family: "Raleway", sans-serif;
@@ -191,12 +191,12 @@ body {
 }
 .session {
   width: 52%;
-  height: 23rem;
+  height: 27rem;
   padding-left: 6rem;
   padding-top: 1rem;
   margin-top: 1rem;
   border-right: 0.2rem solid black;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 .reg {
   font-size: 1.5rem;
@@ -230,7 +230,7 @@ body {
   font-size: 3.2rem;
 }
 .speakerPhoto img {
-  padding-left: 11rem;
+  padding-left: 15.8rem;
   padding-bottom: 2rem;
   height: 12.5rem;
 }
@@ -255,7 +255,7 @@ body {
   font-size: 2rem;
 }
 .timer {
-  margin-left: 3rem;
+  margin-left: 3.1rem;
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
@@ -265,15 +265,16 @@ body {
 .clock {
   /* background-color: rgb(223, 219, 219); */
   height: 10rem;
-  width: 23rem;
+  width: 25.1rem;
   border-radius: 2rem;
 }
 #timers {
-  padding: 1.5rem;
+  padding: 1.7rem;
+  text-align: center;
   font-size: 2rem;
   background-color: #d18410;
   color: white;
-  font-family: "Raleway", sans-serif;
+  font-family: "Judson", sans-serif;
   border-radius: 0.6rem;
 }
 .registration {
@@ -289,7 +290,8 @@ body {
   text-align: center;
 }
 .registration button {
-  background-color: rgb(96, 96, 228);
+  background-color: #007bffc0;
+
   width: 18rem;
   border-radius: 0.4rem;
   margin-top: 0.7rem;
@@ -298,14 +300,21 @@ body {
   font-family: "Raleway", sans-serif;
   cursor: pointer;
   font-size: 1rem;
+  border: none;
 }
 footer {
   width: 100vw;
   height: 8vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: rgb(37, 37, 37);
+}
+.margin-left {
+  margin-left: 6rem;
+}
+.margin-right {
+  margin-right: 6rem;
 }
 .right_footer p {
   display: flex;
@@ -405,8 +414,8 @@ footer {
     margin: 0rem 2rem;
   }
   .banner img {
-    height: 4rem;
-    width: 6rem;
+    height: 3rem;
+    width: 3rem;
     padding-top: 0rem;
     padding-left: 0rem;
     margin-top: 5.5rem;
@@ -550,11 +559,27 @@ footer {
     border-radius: 0.6rem;
     width: 80%;
   }
+  footer {
+    justify-content: space-around;
+  }
+  .margin-left {
+    margin-left: 0.2rem;
+  }
+  .margin-right {
+    margin-right: 1rem;
+  }
   .right_footer p {
     font-size: 0.6rem;
+    margin-right: 8px;
+  }
+  .right_footer span {
+    font-size: 0.6rem;
+    margin-right: 8px;
   }
   .right_footer a {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
+    margin-right: 8px;
+    margin-left: 7px;
   }
   .copyright p {
     font-size: 0.6rem;
