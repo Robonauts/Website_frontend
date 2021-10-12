@@ -59,6 +59,13 @@ submitButton.addEventListener("click", (e) => {
       console.log(error);
     });
 
+  // Reset form
+  document.getElementById("name").value = "";
+  document.getElementById("lname").value = "";
+  document.getElementById("email").value = "";
+  document.getElementById("number").value = "";
+  document.getElementById("message").value = "";
+
   //alert
   alert("Your Form Has Been Submitted Successfully");
 });

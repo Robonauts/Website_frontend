@@ -39,7 +39,7 @@ function showSlides(n) {
 }
 
 // Timer
-var final_date = new Date("oct 16, 2021 2:00:00").getTime();
+var final_date = new Date("oct 16, 2021 19:00:00").getTime();
 
 var y = setInterval(function () {
   var now = new Date().getTime();
