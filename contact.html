@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./CSS/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Judson&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="photo">
+        <section class="home">
+            <div class="header">
+                <div class="logo">
+                    <a href="./index.html">
+                        <img src="./Images/logo-removebg-preview.png" alt="">
+                        <h4 class="logo123">IoT and Robotics </h4>
+                    </a>
+                </div>
+                <div id="navbar">
+                    <ul class="navlinks">
+                        <a href="./index.html" class="subHeading">HOME</a>
+                        <a href="./event.html" class="subHeading">EVENT</a>
+                        <a href="./blog.html" class="subHeading">BLOGS</a>
+                        <a href="./contact.html" class="subHeading current">CONTACT US</a>
+                    </ul>
+                </div>
+                <a href="#" class="burger">
+                    <span class="bar-1"></span>
+                    <span class="bar-2"></span>
+                    <span class="bar-3"></span>
+                </a>
+                <!-- <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div> -->
+            </div>
+
+        </section>
+        <h2 class="cont">Contact Us</h2>
+        <p class="cont-bottom">We will be in touch within one business day.</p>
+        <section class="bg">
+            <div class="main-container">
+                <div class="cont-side">
+                    <div style="display: flex;">
+                        <i class="fa fa-bus"></i>
+                        <div class="cont-address" style="display: flex; flex-direction: column; margin-left: 1em;">
+                            <p class="address">Address</p>
+                            <p class="add-content">Survey No. 140,141/1 behind </p>
+                            <p class="add-content-1">Br. Sheshrao Wankhade Shetkari</p>
+                            <p class="add-content-2">Soot Girni, Nagpur, Maharashtra</p>
+                            <p class="add-content-3">441108</p>
+                        </div>
+                    </div>
+                    <div style="display: flex;">
+                        <i class="fa fa-phone"></i>
+                        <div style="display: flex; flex-direction: column; margin-left: 1em;">
+                            <p class="phone">Let's Talk</p>
+                            <p class="phn-content">+917753915918</p>
+                        </div>
+                    </div>
+                    <div style="display: flex;">
+                        <i class="fa fa-envelope"></i>
+                        <div style="display: flex; flex-direction: column; margin-left: 1em;">
+                            <p class="add-email">Email</p>
+                            <a href="mailto:robonauts@iiitn.ac.in" class="add-email-cont">robonauts@iiitn.ac.in</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="cont-top">
+                        <img src="./Images/logo-new.jpeg" alt="" class="cont-top-img">
+                        <p class="cont-top-para">Approach Us</p>
+                    </div>
+                    <div class="cont-right">
+                        <form id="contactForm">
+
+                            <div class="name-adj" style="margin-bottom: 5px;">
+                                <div style="display: flex; flex-direction: column; margin-right: 0px;">
+                                    <label for="name" class="first-name">First Name</label> <input type="text" id="name"
+                                        name=Name placeholder="First Name*" required>
+                                </div>
+                                <div style="display: flex; flex-direction: column;" class="last-name">
+                                    <label for="lname" style="margin-bottom: 0.5em; " class="last-name">Last
+                                        Name</label>
+                                    <input type="text" id="lname" name=Name placeholder="Last Name*" required>
+                                </div>
+                            </div>
+
+                            <label for="email" class="cont-email">Email</label> <input type="email" id="email"
+                                name=Email placeholder="Email*" required>
+
+                            <label for="number" class="cont-number">Contact Number</label> <input type="number"
+                                id="number" name="number" placeholder="Contact Number">
+
+                            <label for="message" class="cont-msg">Message</label> <textarea id="message" name="message"
+                                required cols="50" rows="5" placeholder="Message"></textarea>
+                            <button type="submit" name="submit" id="submit">SEND MESSAGE</button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <!-- <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script> -->
+    <script src="./JS/contact.js"></script>
+</body>
+<footer>
+    <div class="foot_logo">
+        <img src="./Images/logo.png">
+    </div>
+    <div class="cont_foot">
+        <div class="links_foot">
+            <a href="./index.html" class="link_foot">HOME</a>
+            <a href="https://iiitn.ac.in" class="link_foot">IIITN</a>
+        </div>
+        <div class="icons_foot">
+            <a href="https://www.instagram.com/robonauts_iiitn" target="_blank"> <i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/robonauts" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:robonauts@iiitn.ac.in" target="_blank"><i class="far fa-envelope"></i></a>
+        </div>
+        <div class="links_foot">
+            <a href="./contact.html" class="link_foot">CONTACT US</a>
+            <a href="./event.html" class="link_foot">EVENT</a>
+        </div>
+    </div>
+    <div class="regis">
+        <a href="https://forms.gle/zrWXxagBMuVo2sM98" target="_blank"><button class="btn_register">REGISTER
+                NOW</button></a>
+    </div>
+</footer>
+
+</html>
