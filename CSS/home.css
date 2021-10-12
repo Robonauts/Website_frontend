@@ -133,7 +133,7 @@
 .aboutUs {
   text-align: center;
   height: 79vh;
-  margin: 0.6rem 0rem;
+  margin: 1.6rem 0rem;
 }
 .aboutUs H1 {
   font-size: 3.6rem;
@@ -158,38 +158,90 @@
   line-height: 1.5;
 }
 footer {
-  width: 100vw;
-  height: 8vh;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  width: 100vw;
+  height: 45vh;
+  background-color: rgb(22, 22, 22);
+}
+.foot_logo {
+  position: relative;
+  margin-top: 2rem;
+  max-width: 100vw;
+}
+.foot_logo:before {
+  content: "";
+  display: block;
+  width: 28rem;
+  height: 2px;
+  background: whitesmoke;
+  position: absolute;
+  left: 5rem;
+  top: 70%;
+}
+.foot_logo::after {
+  content: "";
+  display: block;
+  width: 28rem;
+  height: 2px;
+  background: whitesmoke;
+  position: absolute;
+  right: 5rem;
+  top: 70%;
+}
+.foot_logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 12.5rem;
+  height: 3.5rem;
+}
+.cont {
+  width: 104vw;
+  height: 20vh;
+  display: flex;
+  justify-content: space-evenly;
   align-items: center;
-  background-color: rgb(37, 37, 37);
+  /* background-color: rgb(22, 22, 22); */
 }
-/* .right_footer {
-  width: 30%;
-} */
-.margin-left {
-  margin-left: 6rem;
+.links {
+  display: flex;
+  flex-direction: column;
+  height: 10vh;
+  justify-content: space-around;
 }
-.margin-right {
-  margin-right: 6rem;
+.link {
+  text-decoration: none;
+  font-size: 1rem;
+  color: whitesmoke;
+  font-weight: 600;
 }
-.right_footer p {
+.icons {
+  text-decoration: none;
+  width: 25%;
+  font-size: 2.2rem;
   display: flex;
   justify-content: space-around;
 }
-.right_footer span {
-  margin-right: 30px;
+.icons a {
+  color: whitesmoke;
 }
-.right_footer a {
-  text-decoration: none;
-  color: white;
+.regis {
+  display: block;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.btn_register {
+  cursor: pointer;
+  padding: 0.4rem;
+  color: whitesmoke;
+  border: none;
   font-size: 1rem;
-  font-weight: 700;
-  margin-right: 30px;
+  background-color: rgb(22, 22, 22);
 }
-.right_footer a:hover {
-  color: gray;
+.btn_register:hover {
+  border: 1px solid whitesmoke;
+  border-radius: 0.2rem;
 }
 .line1 {
   background-color: rgb(240, 188, 188);
@@ -288,36 +340,34 @@ footer {
     margin-left: 0.8rem;
     margin-right: 0.8rem;
   }
+  .foot_logo:before {
+    width: 5rem;
+    left: 0.7rem;
+    top: 70%;
+  }
+  .foot_logo::after {
+    width: 5rem;
+    right: 0.7rem;
+    top: 70%;
+  }
+  .foot_logo img {
+    width: 6rem;
+    height: 2.5rem;
+  }
+  .link {
+    font-size: 0.8rem;
+    color: whitesmoke;
+    font-weight: 600;
+  }
+  .icons {
+    width: 30%;
+    font-size: 1.2rem;
+  }
+  .regis {
+    margin-bottom: 0.3rem;
+  }
   footer {
-    justify-content: space-around;
-  }
-  .margin-left {
-    margin-left: 0.1rem;
-  }
-  .margin-right {
-    margin-right: 0.1rem;
-  }
-  .right_footer {
-    width: 55%;
-  }
-  .right_footer span {
-    margin-right: 8px;
-  }
-  .right_footer p {
-    font-size: 0.6rem;
-  }
-  .right_footer a {
-    margin-right: 8px;
-    font-size: 0.6rem;
-  }
-  .copyright p {
-    font-size: 0.6rem;
-  }
-  .copyright {
-    padding: 5px;
-  }
-  .right_footer {
-    padding: 5px;
+    height: 38vh;
   }
 }
 .nav-active {
