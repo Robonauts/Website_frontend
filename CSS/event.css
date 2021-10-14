@@ -644,7 +644,7 @@ footer {
     margin-bottom: 0.3rem;
   }
   .cont {
-    width: 100%;
+    justify-content: space-around;
   }
   footer {
     height: 38vh;
