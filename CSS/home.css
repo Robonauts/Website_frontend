@@ -265,6 +265,15 @@ footer {
   display: none;
   cursor: pointer;
 }
+/* Loader */
+#loader {
+  background: #fff url("../Images/Hourglass.gif") no-repeat center center;
+  background-size: 5%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 111;
+}
 @media screen and (max-width: 720px) {
   body {
     overflow-x: hidden;
@@ -274,7 +283,7 @@ footer {
   }
   .navlinks {
     position: absolute;
-    top: 10vh;
+    top: 12vh;
     flex-direction: column;
     align-items: center;
     height: 50vh;
@@ -368,6 +377,13 @@ footer {
   }
   footer {
     height: 38vh;
+  }
+  .cont {
+    margin-left: 0.4rem;
+    justify-content: space-around;
+  }
+  #loader {
+    background-size: 25%;
   }
 }
 .nav-active {
