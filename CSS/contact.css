@@ -674,6 +674,6 @@ footer {
     height: 38vh;
   }
   .cont_foot {
-    width: 100vw;
+    justify-content: space-around;
   }
 }
